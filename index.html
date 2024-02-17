@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 07</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- <input type="text" id="txt01">
+    <input type="text" id="txt02">
+    <input type="button" onclick="submit()" value="Submit"> -->
+
+    <div class="container" >
+        <div class="row">
+            <div class="col">
+                <input type="text" id="display" style="width: 20%;">
+                <input type="button" id="clear" value="clear" onclick="clearDisplay()">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="button" id="btn7" value="7" onclick="printToDisplay(7)">
+                <input type="button" id="btn8" value="8" onclick="printToDisplay(8)">
+                <input type="button" id="btn9" value="9" onclick="printToDisplay(9)">
+                <input type="button" id="btn+" value="+" onclick="op(10)">
+            </div>
+            <div class=" row">
+                <div class="col">
+                    <input type="button" id="btn4" value="4" onclick="printToDisplay(4)">
+                    <input type="button" id="btn5" value="5" onclick="printToDisplay(5)">
+                    <input type="button" id="btn6" value="6" onclick="printToDisplay(6)">
+                    <input type="button" id="btn-" value="-" onclick="op(11)">
+                </div>
+            </div>
+            <div class=" row">
+                <div class="col">
+                    <input type="button" id="btn1" value="1" onclick="printToDisplay(1)">
+                    <input type="button" id="btn2" value="2" onclick="printToDisplay(2)">
+                    <input type="button" id="btn3" value="3" onclick="printToDisplay(3)">
+                    <input type="button" id="btnx" value="*" onclick="op(12)">
+                </div>
+            </div>
+            <div class=" row">
+                <div class="col">
+                    <input type="button" id="btn0" value="0" onclick="printToDisplay(0)">
+                    <input type="button" id="btn." value="." onclick="printToDisplay(13)">
+                    <input type="button" id="btn=" value="=" onclick="op(14)">
+                    <input type="button" id="btn/" value="/" onclick="op(15)">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src=" app.js"></script>
+</body>
+
+</html>
