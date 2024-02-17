@@ -30,10 +30,14 @@ function op(b){
         y=parseFloat(y);
         
         clearDisplay();
+        ans=0;
         if(z==10){ans=x+y;}
         if(z==11){ans=x-y;}
         if(z==12){ans=x*y;}
         if(z==15){ans=x/y;}
+        x=0;
+        y=0;
+
     }if(b==10){
         x=document.getElementById("display").value;
         clearDisplay();
